@@ -1,5 +1,5 @@
 body{
-	background: #EDF1F2;
+	background: #FFFFFF;
 	/*background: rgba(247,247,247,1);
 	background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(240,240,240,1) 50%, rgba(227,227,227,1) 51%, rgba(255,255,255,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,247,247,1)), color-stop(50%, rgba(240,240,240,1)), color-stop(51%, rgba(227,227,227,1)), color-stop(100%, rgba(255,255,255,1)));
@@ -30,9 +30,26 @@ body{
 	border-radius: 10px 10px 10px 10px;
 }
 */
+h3{
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #EAEAEA;
+	color: #000;
+	margin-top: 0px
+}
+hr {
+	background-color: ;
+	height: 1px;
+}
+
+.well{
+	background-color: #fff;
+	border-radius: 20px
+}
 
 .navbar {
-	background-color: #4A6E8C;
+	background-color: #3498DB;
     right: 0;
     left: 0;
     z-index: 1030;
@@ -58,7 +75,6 @@ body{
 }
 
 .container-fluid {
-    /*position: fixed;*/
     right: 0;
     left: 0;
     z-index: 1030;
@@ -66,7 +82,7 @@ body{
 }
 
 .container{
-	background-color: #FFFFFF;
+	background-color: #F5F5F5;
 	padding: 20px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border-radius: 10px 10px 10px 10px;
@@ -91,7 +107,7 @@ body{
 
 .footer{
 	margin-top: 20px;
-	background-color: #4A6E8C;
+	background-color: #3498DB;
 	padding: 20px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border-radius: 10px 10px 10px 10px;
@@ -114,12 +130,7 @@ body{
 
 }
 
-.world_image {
+.world_image{
 	float: left;
-	margin-right: 30px;
-
-}
-
-.goal {
-	margin-top: 50px;
+	border-radius: 10px;
 }
