@@ -1,41 +1,13 @@
 body{
 	background: #FFFFFF;
-	/*background: rgba(247,247,247,1);
-	background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(240,240,240,1) 50%, rgba(227,227,227,1) 51%, rgba(255,255,255,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,247,247,1)), color-stop(50%, rgba(240,240,240,1)), color-stop(51%, rgba(227,227,227,1)), color-stop(100%, rgba(255,255,255,1)));
-	background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(240,240,240,1) 50%, rgba(227,227,227,1) 51%, rgba(255,255,255,1) 100%);
-	background: -o-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(240,240,240,1) 50%, rgba(227,227,227,1) 51%, rgba(255,255,255,1) 100%);
-	background: -ms-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(240,240,240,1) 50%, rgba(227,227,227,1) 51%, rgba(255,255,255,1) 100%);
-	background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(240,240,240,1) 50%, rgba(227,227,227,1) 51%, rgba(255,255,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ffffff', GradientType=1 );
-	background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #F5A4BB),
-	color-stop(0.84, #F0E4BB)
-);
-	background-image: -o-linear-gradient(bottom, #F5A4BB 0%, #F0E4BB 84%);
-	background-image: -moz-linear-gradient(bottom, #F5A4BB 0%, #F0E4BB 84%);
-	background-image: -webkit-linear-gradient(bottom, #F5A4BB 0%, #F0E4BB 84%);
-	background-image: -ms-linear-gradient(bottom, #F5A4BB 0%, #F0E4BB 84%);
-	background-image: linear-gradient(to bottom, #F5A4BB 0%, #F0E4BB 84%);*/
 }
 
-/*.box{
-	background-color: white;
-	padding: 10px;
-	margin:0px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
-}
-*/
 h3{
 	text-align: center;
 	padding: 10px;
 	border-radius: 10px;
 	background-color: #EAEAEA;
-	color: #000;
+	color: #914141;
 	margin-top: 0px
 }
 hr {
@@ -133,4 +105,8 @@ hr {
 .world_image{
 	float: left;
 	border-radius: 10px;
+}
+
+.social {
+	margin-top: 11px;
 }
