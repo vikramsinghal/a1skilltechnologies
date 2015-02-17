@@ -105,8 +105,13 @@ hr {
 .world_image{
 	float: left;
 	border-radius: 10px;
+	margin-right: 10px;
 }
 
 .social {
 	margin-top: 11px;
+}
+
+.aim-class{
+	margin-left: 10px;
 }
