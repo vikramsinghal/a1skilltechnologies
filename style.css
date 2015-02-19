@@ -22,6 +22,7 @@ hr {
 
 .navbar {
 	background-color: #009688;
+	border-radius: 5px;
 	/*backup-color #3498DB*/
     right: 0;
     left: 0;
