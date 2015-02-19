@@ -22,8 +22,6 @@ hr {
 
 .navbar {
 	background-color: #009688;
-	border-radius: 5px;
-	/*backup-color #3498DB*/
     right: 0;
     left: 0;
     z-index: 1030;
@@ -82,8 +80,10 @@ hr {
 .footer{
 	margin-top: 20px;
 	background-color: #009688;
-	padding: 15px;
-	border-radius: 5px;
+	padding: 20px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+
 }
 
 .footer-text {
@@ -102,11 +102,20 @@ hr {
 
 }
 
-.world_image{
+.success-image{
 	float: left;
 	border-radius: 10px;
+	margin-right: 20px;
+	width: 30%;
+}
+.motto-text{
+	margin-top: 0px;
 }
 
 .social {
 	margin-top: 11px;
+}
+
+.aim-class{
+	margin-left: 10px;
 }
