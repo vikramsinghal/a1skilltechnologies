@@ -1,5 +1,5 @@
 body{
-	background: #FFFFFF;
+	background: #E0D9D4;
 }
 
 h3{
@@ -21,7 +21,8 @@ hr {
 }
 
 .navbar {
-	background-color: #3498DB;
+	background-color: #009688;
+	/*backup-color #3498DB*/
     right: 0;
     left: 0;
     z-index: 1030;
@@ -79,11 +80,9 @@ hr {
 
 .footer{
 	margin-top: 20px;
-	background-color: #3498DB;
-	padding: 20px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
-
+	background-color: #009688;
+	padding: 15px;
+	border-radius: 5px;
 }
 
 .footer-text {
@@ -102,20 +101,11 @@ hr {
 
 }
 
-.success-image{
+.world_image{
 	float: left;
 	border-radius: 10px;
-	margin-right: 20px;
-	width: 30%;
-}
-.motto-text{
-	margin-top: 0px;
 }
 
 .social {
 	margin-top: 11px;
-}
-
-.aim-class{
-	margin-left: 10px;
 }
