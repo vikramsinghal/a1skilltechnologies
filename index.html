@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Skill Development and Talent Acquisition Network</title>
+  <title>Skilltan Consulting</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -11,7 +11,6 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
    <link rel="icon" href="skilltan-fav.png" type="image/png" sizes="16x16">
-
 </head>
 
 <body>
@@ -26,7 +25,8 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">HOME</a></li>
-        <li><a href="#about-us" style="color:#fff;">ABOUT US</a></li>
+        <li><a href="aboutus.html" style="color:#fff;">ABOUT SKILLTAN</a></li>
+        <li><a href="jobs.html" style="color:#fff;">JOBS</a></li>
          <li><a href="contact.html" style="color:#fff;">CONTACT US</a></li>
       </ul>
     </div>
@@ -71,19 +71,20 @@
   </div> <!-- Carousel --> 
 
   <hr>
-    <div class="col-md-4 well">
+  
+    <!-- <div class="col-md-4 well">
       <h3>Services</h3>
-        <p>Skilltan provides Workforce Solutions, Human Resource Management and Turn Key Solutions for IT division of all industries. Our service space is also dedicated to skilled people who are ready to prove their capabilities and potential in career market.</p>
+        <p>Skilltan consulting provides Workforce Solutions, Human Resource Management and Turn Key Solutions for IT division of all industries. Our service space is also dedicated to skilled people who are ready to prove their capabilities and potential in career market.</p>
     </div>
      <div class="col-md-4 well">
       <h3>Clients</h3>
-      <p>Skilltan supports major clients in all the key technologies. With Skilltan, each client has the benefit of supplementing its existing IT Division with the most qualified individuals (or teams) in the marketplace.</p>
+      <p>Skilltan consulting supports major clients in all the key technologies. With Skilltan, each client has the benefit of supplementing its existing IT Division with the most qualified individuals (or teams) in the marketplace.</p>
     </div>
      <div class="col-md-4 well">
       <h3>Projects</h3>
       <p>We have worked with a variety of businesses varying from non-profit to corporate to retail. Although our clients have ranged in size to large corporations, our niche is helping small and medium sized clients discover.</p>
     </div>
-
+ -->
     
     <div class="col-md-12 well">
       <h3>We believe in acheving!</h3>
@@ -95,32 +96,31 @@
         <p>Our aim is to create opportunity space for everyone as we believe that we all have skills. At Skilltan, we are always striving to empower the talent, potential and employment by providing daily updates in the form of Jobs, Industry trends and news related to skill market. We work for Job Seekers as well as employers to deliver the result with best response time. Our motto holds the confidence of excelling in the field of skill development. Our best practices and industry experience has made us to follow the path of constant improvement. We believe that everyone has got skills and it will be our honor to connect them with best opportunities that can be of value for someone around the world. I welcome you in a world of unlimited opportunities.</p>
       </div>
     </div>
-      
-    <div class="col-md-8 well">
-      <h3>About Us</h3>
-      <a href="#about-us" id="about-us"></a>
-      Skilltan is <i><b>Skill Development & Talent Acquisition Network</b></i> run by professionals focused to provide Skill development and Human Resource management through a dedicated process.
-      Today we see that there are lot of resources and platform but few of them are only able to justify when it comes to link skill with opportunities, we at SKILLTAN are abide of following only two simple rules of service:
-      
-      <ol class="about_us_desc">
-        <li>Simplicity to provide effective and better results</li>
-        <li>Within best response time.</li>
-      </ol>
-    </div>
 
+    <div class="col-md-8 well">
+      <h3>Our Clients</h3>
+        <div>
+          <img src="netflix.png" class="clients">
+          <img src="charter.png" class="clients">
+          <img src="comcast.png" class="clients">
+          <img src="google.png" class="clients">
+        </div>
+      </div>
+    
     <div class="col-md-4 well">
-      <h3><a href="contact.html" style="color:#914141"> Contact Us</a></h3>
+      <h3><a href="contact.html" style="color:#477AB8"> Contact Us</a></h3>
       <p class="contact"><b>Send us your resume and see what we can do for you!</b></p>
       <a href="mailto:contact@gmail.com" target="_top">
       <img src="email-icon.png"> resume@skilltan.com</a>
       
       <div class="social">
-        <a href="https://www.twitter.com"><img src="twitter.png" style="margin-right:9px;"></a>
+        <a href="https://www.twitter.com"><img src="twitter.png" style="margin-right:9px;">
+        </a>
         <a href="https://www.linkedin.com"><img src="linkedin.png" style="margin-right:9px;"></a>
-        <a href="https://plus.google.com"><img src="googleplus.png" style="margin-right:9px;"></a>
+        <a href="https://plus.google.com"><img src="googleplus.png"style="margin-right:9px;">
+        </a>
         <a href="https://www.facebook.com"><img src="facebook.png" style="margin-right:9px;"></a>
       </div>
-    
     </div>
 
     <div class="clearfix visible-lg"></div>
@@ -130,20 +130,3 @@
     </div>
   </body>
 </html>
-
-<script type="text/javascript">
-  $(document).ready(function(){
-  $('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
-
-      var target = this.hash;
-      var $target = $(target);
-
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
-      }, 1000, 'swing', function () {
-          window.location.hash = target;
-      });
-  });
-});
-</script>

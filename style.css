@@ -7,7 +7,7 @@ h3{
 	padding: 10px;
 	border-radius: 10px;
 	background-color: #EAEAEA;
-	color: #914141;
+	color: #477AB8;
 	margin-top: 0px;
 
 }
@@ -113,9 +113,35 @@ hr {
 }
 
 .social {
-	margin-top: 11px;
+	margin-top: 25px;
 }
 
 .aim-class{
 	margin-left: 10px;
+}
+
+.staff-description{
+	float: left;
+	border-radius: 10px;
+	margin-right: 20px;
+	width: 10%;
+}
+
+.staff-picture {
+	float: left;
+	border-radius: 10px;
+	margin-right: 20px;
+	width: 20%;
+}
+
+b{
+	color: #3498DB;
+}
+
+.staff-text{
+	color: #5C5C5C;
+}
+
+.clients{
+	width: 20%;
 }
