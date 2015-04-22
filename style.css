@@ -5,11 +5,10 @@ body{
 }
 
 h3{
-	text-align: center;
-	padding: 10px;
+/*	text-align: center;*/
 	border-radius: 10px;
-	background-color: #EAEAEA;
-	color: #455A64;
+	/*background-color: #EAEAEA;*/
+	color: #3A3A3A;
 	margin-top: 0px;
 
 }
@@ -21,15 +20,16 @@ hr {
 
 .well{
 	background-color: #fff;
-	border-radius: 20px
+	/*border-radius: 20px*/
 }
 
 .navbar {
-	background-color: #009688;
+	background-color: #52BAD5;
     right: 0;
     left: 0;
     z-index: 1030;
     top: 0;
+    border-radius: 0px;
 }
 
 .logo{
@@ -81,7 +81,7 @@ hr {
 
 .footer{
 	margin-top: 20px;
-	background-color: #009688;
+	background-color: #52BAD5;
 	padding: 20px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border-radius: 10px 10px 10px 10px;
@@ -108,7 +108,7 @@ hr {
 	float: left;
 	border-radius: 10px;
 	margin-right: 20px;
-	width: 30%;
+	width: 21%;
 }
 .motto-text{
 	margin-top: 0px;
@@ -149,5 +149,6 @@ b{
 }
 
 h4 {
-	color: #455A64
+	color: #3A3A3A;
+	font-weight: 500;
 }
