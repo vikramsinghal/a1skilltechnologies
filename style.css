@@ -1,5 +1,7 @@
+
 body{
 	background: #E0D9D4;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h3{
@@ -7,7 +9,7 @@ h3{
 	padding: 10px;
 	border-radius: 10px;
 	background-color: #EAEAEA;
-	color: #477AB8;
+	color: #455A64;
 	margin-top: 0px;
 
 }
@@ -144,4 +146,8 @@ b{
 
 .clients{
 	width: 20%;
+}
+
+h4 {
+	color: #455A64
 }
